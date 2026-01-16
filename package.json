@@ -1,0 +1,29 @@
+{
+  "name": "@rabbit-backend/proxy-state",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.mjs",
+  "types": "./dist/index.d.mts",
+  "files": [
+    "dist/*"
+  ],
+  "scripts": {
+    "build": "tsup index.ts --format esm --dts index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rabbit-backend/proxy-state.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/rabbit-backend/proxy-state/issues"
+  },
+  "homepage": "https://github.com/rabbit-backend/proxy-state#readme",
+  "devDependencies": {
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3"
+  }
+}
